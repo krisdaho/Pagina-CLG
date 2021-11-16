@@ -1,0 +1,124 @@
+/* PORTADA */
+.portada-servicios {
+  color: #ffffff;
+  font-size: 50px;
+  background: brown;
+  background: url('../img/imagenprincipalservicios.jpg') no-repeat center/100% 80%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/* CARDS SERVICIOS */
+.servicios-cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.p-masinfo a{
+    padding: 10px 0;
+    color: #007cea;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    text-align: left;
+    
+  }
+
+.servicios-cards p {
+    text-align: center ;
+}
+
+.servicios-cards h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+.icon-servicios{
+  display: flex;
+  font-size: 150px;
+  color: #007cea;
+  justify-content: center;
+  
+}
+
+
+/* DESCRIPCION SERVICIOS */
+.descripcion-servicios{
+  margin-top: 25px;
+}
+
+.descripcion-servicio1{
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "servicios1 servicios1"
+  "imagenservicios1 parrafoservicios1"
+  ;
+}
+
+.descripcion-servicio1 img{
+  grid-area: imagenservicios1;
+}
+.descripcion-servicio1 p{
+  grid-area: parrafoservicios1;
+  padding: 0 10px;
+}
+.descripcion-servicio1 h1{
+  grid-area: servicios1 ;
+  text-align: center;
+}
+
+.descripcion-servicio2{
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "servicios1 servicios1"
+  "imagenservicios1 parrafoservicios1";
+  margin-top: 25px;
+}
+
+.descripcion-servicio2 img{
+  grid-area: imagenservicios1;
+  height: 185px;
+  width: 285px;
+}
+.descripcion-servicio2 p{
+  grid-area: parrafoservicios1;
+  padding: 0 10px;
+}
+.descripcion-servicio2 h1{
+  grid-area: servicios1 ;
+  text-align: center;
+}
+
+.descripcion-servicio3{
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "servicios1 servicios1"
+  "imagenservicios1 parrafoservicios1";
+  margin-top: 25px;
+}
+
+.descripcion-servicio3 img{
+  grid-area: imagenservicios1;
+  height: 185px;
+  width: 285px;
+}
+.descripcion-servicio3 p{
+  grid-area: parrafoservicios1;
+  padding: 0 10px;
+}
+.descripcion-servicio3 h1{
+  grid-area: servicios1 ;
+  text-align: center;
+}
